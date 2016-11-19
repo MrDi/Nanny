@@ -215,8 +215,11 @@ jQuery(window).scroll(function() {
     }
 	 if (jQuery(".navbar").offset().top > a) {
 		 
-		 
+		   jQuery(".navbar-fixed-top").addClass("page_off");
 	 }
+	else{
+		jQuery(".navbar-fixed-top").removeClass("page_off");
+	}
 	
 });
 
