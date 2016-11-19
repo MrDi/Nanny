@@ -90,6 +90,7 @@
     margin-right: 29px;
     line-height: 25px;
     opacity: 0;
+    transition: opacity 0.4s ease;
 }
 
     .pace .pace-progress {
@@ -195,6 +196,9 @@
     font-weight: 400;
     -webkit-font-smoothing: inherit;
     opacity: 0;
+    z-index: 1;
+    line-height: 1.3rem;
+    transition: opacity 0.5s ease;
 }
 
     section.phone_task.alt-bg-light {
@@ -725,6 +729,8 @@ a.block_a {
         font-size: 25px;
         padding: 0;
         margin: 0;
+        z-index: 2;
+        position: relative;
     }
 
     .navbar-custom .navbar-brand span.brand-logo{
@@ -3875,7 +3881,7 @@ div#connect .col-md-8.contact-form >h3{
        
 
     .info_text.tel-fax >div>span.slash {
-        font-size: 50px;
+logo        font-size: 50px;
     }
 
     .info_text.tel-fax {
@@ -4106,20 +4112,28 @@ span.phone-light {
     font-weight: 300;
 }
 
-.calc {}
-
-img.logo_nanny {
-    width: 50%;
+.top-nav-collapse .calc {
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
-img.logo_nanny.logo_c {
+.logo_nanny {
+    width: 112%;
+}
+
+.logo_nanny.logo_c {
     display: none;
 }
 
-.top-nav-collapse img.logo_nanny.logo_c {
+.top-nav-collapse .logo_nanny.logo_c {
     display: block;
 }
 
-.top-nav-collapse img.logo_nanny.logo_w {
+.top-nav-collapse .logo_nanny.logo_w {
     display: none;
+}
+
+.page_off .phone_main {
+    transition: opacity 0.4s ease;
+    opacity: 1;
 }
