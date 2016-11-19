@@ -82,8 +82,14 @@
 }
 .phone_main {
     width: 250px;
-    font-size: 19px;
-    color: #717171;
+    font-size: 1.4rem;
+    font-family: "Iskra";
+    color: #7b7b7b;
+    font-weight: 300;
+    text-align: right;
+    margin-right: 29px;
+    line-height: 25px;
+    opacity: 0;
 }
 
     .pace .pace-progress {
@@ -98,7 +104,9 @@
       pointer-events: none;
     }
 .phone_line {
-    color: #f44336;
+    color: #fa597a;
+    font-weight: 700;
+    font-size: 1.4rem;
 }
 .left-text {
     text-align: left;
@@ -178,11 +186,15 @@
 
 .calc {
     text-align: center;
-    font-size: 20px;
-    color: #f44336;
+    font-size: 1.8rem;
+    color: #fa597a;
     text-transform: lowercase;
     position: absolute;
     width: 100%;
+    font-family: "Iskra";
+    font-weight: 400;
+    -webkit-font-smoothing: inherit;
+    opacity: 0;
 }
 
     section.phone_task.alt-bg-light {
@@ -1053,6 +1065,10 @@ svg#group_blue:hover {
         padding: 0;
         margin: 10px 0;
         color: #fff;
+        font-family: "Iskra";
+        font-weight: 700;
+        font-size: 3rem;
+        /* font-size: 16px; */
     } 
 #contact .tel p {
     margin: 0;
@@ -2819,7 +2835,7 @@ section.how-start img {
         text-align: center;
         background: url(/img/3.jpg) 50% 0 no-repeat scroll;
         background-size: cover;
-             -o-background-size: cover;
+        -o-background-size: cover;
     }
 .title {
     font-size: 19px;
@@ -2935,6 +2951,7 @@ p.intro-text.animated.slideInUp {
     width: 680px;
     margin: 0 auto;
     font-size: 24px;
+    font-weight: 200;
 }
     .testimonials p.speech:after{
         content: ' ';
@@ -3469,7 +3486,7 @@ p.tittle.center-text {
         .carousel-caption {
         right: 10%;
         left: 10%;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
     }
 
     }
@@ -4083,4 +4100,26 @@ p.hidden_all {
 }
 
 .text_reader {
+}
+
+span.phone-light {
+    font-weight: 300;
+}
+
+.calc {}
+
+img.logo_nanny {
+    width: 50%;
+}
+
+img.logo_nanny.logo_c {
+    display: none;
+}
+
+.top-nav-collapse img.logo_nanny.logo_c {
+    display: block;
+}
+
+.top-nav-collapse img.logo_nanny.logo_w {
+    display: none;
 }

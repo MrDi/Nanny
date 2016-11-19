@@ -6,6 +6,8 @@
     font-weight: 400;
 }
 
+
+
 /* font-family: "RalewayExtraLight"; */
 @font-face {
     font-family: "Bliss";
@@ -70,19 +72,11 @@
 /* font-family: "Light"; */
 @font-face {
     font-family: "Iskra";
-    src: url("../fonts/IskraCYR-Light.otf");
+    src: url("../fonts/IskraCYR-Light2.ttf");
     font-style: normal;
     font-weight: 300;
 }
 
-
-/* font-family: "Regular"; */
-@font-face {
-    font-family: "Iskra";
-    src: url("../fonts/IskraCYR-Regular.otf");
-    font-style: normal;
-    font-weight: 400;
-}
 
 
 /* font-family: "Medium"; */

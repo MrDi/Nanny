@@ -203,13 +203,21 @@ jQuery('time').html(text);
     
     
 jQuery(window).scroll(function() {
+	var a = jQuery("#parallax-slide").innerHeight();
+	
     if (jQuery(".navbar").offset().top > 50) {
+		
         jQuery(".navbar-fixed-top").addClass("top-nav-collapse");
         jQuery(".scroll-top").fadeIn('1000', "easeInOutExpo");
     } else {
         jQuery(".navbar-fixed-top").removeClass("top-nav-collapse");
         jQuery(".scroll-top").fadeOut('1000', "easeInOutExpo");
     }
+	 if (jQuery(".navbar").offset().top > a) {
+		 
+		 
+	 }
+	
 });
 
 
