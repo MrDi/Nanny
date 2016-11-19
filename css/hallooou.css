@@ -119,26 +119,33 @@
         font-size: 50px;
     }
 .block-1 .text {
-    width: 505px;
-    font-weight: 200;
+    width: 489px;
     font-family: "Bliss";
+    color: #404040;
+    font-weight: 300;
+    font-size: 1rem;
 }
 .icon-v {
     width: 40px;
     height: 40px;
-    background: green;
+    background: url(/img/maps-and-flags.png);
+    background-size: contain;
+    margin-right: 23px;
+    position: relative;
+    bottom: -5px;
 }
 .block-1 >div {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 19px 0;
     font-size: 17px;
     align-items: flex-start;
 }
 .number p {
-    font-size: 59px;
-    color: #f44336;
-    font-weight: bold;
+    font-size: 95px;
+    color: #f4b4c1;
+    font-weight: 900;
+    font-family: "Iskra";
 }
 
 .number {
@@ -146,12 +153,11 @@
     display: flex;
     align-items: center;
     position: relative;
-    bottom: -27px;
+    bottom: -41px;
     height: 0px;
 }
 
-.block-12 {
-}
+.block-12 {position: relative;top: -24px;}
 
 .how-start .row.text-center {
     margin: 59px 0;
@@ -193,7 +199,7 @@
     position: absolute;
     width: 100%;
     font-family: "Iskra";
-    font-weight: 400;
+    font-weight: 300;
     -webkit-font-smoothing: inherit;
     opacity: 0;
     z-index: 1;
@@ -280,7 +286,7 @@ h3.margin-top20 {
         margin: 0 0 20px 0;
         text-transform: none;
         color: rgb(33, 60, 137); /* Primary color, can be changed via colors.css */
-        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        /* font-family: "Bliss", "Helvetica Neue", Helvetica, Arial, sans-serif; */
         font-weight: 600;
         letter-spacing: 1px;
         line-height: 1.5;
@@ -292,7 +298,7 @@ h3.margin-top20 {
         line-height: 1.5;
     }
 .phone.col-lg-6.col-md-6.col-sm-6.col-xs-12 {
-    font-family: 'Roboto';
+    font-family: 'Bliss';
 }
 .phone.col-lg-6.col-md-6.col-sm-6.col-xs-12 span.blue {
     font-weight: 100;
@@ -365,8 +371,9 @@ h3.margin-top20 {
     color: #999;
 }
 h3.caption.gray {
-    color: #999;
-    font-weight: 500;
+    color: #404040;
+    font-weight: 300;
+    letter-spacing: 0;
 }
 .mail_main a {
     color: #6CACE5;
@@ -633,11 +640,13 @@ p.price_download + .gray_back {
 
     .caption{
         font-weight: 300;
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .text-center{
         text-align: center;
+        z-index: 1;
+        position: relative;
     }
 #contact .tel p {
     margin: 0;
@@ -1660,7 +1669,7 @@ span.dinamic_price {
 
     .h2, h2 {
         font-size: 36px;
-        font-weight: 700;
+        font-weight: 100;
     }
 
   .page_no_main .h2, .page_no_main h2 {
@@ -2823,8 +2832,10 @@ input#search-searchword {
 
 
 section.how-start img {
-    width: 41%;
+    width: 31%;
     position: absolute;
+    z-index: 1;
+    bottom: 0;
 }
 
 .block-12 .items {
@@ -2839,16 +2850,17 @@ section.how-start img {
 
     .counter-section {
         text-align: center;
-        background: url(/img/3.jpg) 50% 0 no-repeat scroll;
-        background-size: cover;
+        background: url(/img/count_back.jpg) 50% 50% no-repeat scroll;
+        /* background-size: cover; */
         -o-background-size: cover;
+        position: relative;
     }
 .title {
-    font-size: 19px;
-    font-weight: 400;
-    color: #f44336;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fa597a;
     margin-bottom: 5px;
-    font-family: "Bliss";
+    font-family: "Iskra";
 }
     .counter-section strong {
         display: block;
@@ -2861,7 +2873,7 @@ section.how-start img {
         display: block;
         color: #fff;
         font-size: 20px;
-        line-height: 40px;
+        line-height: 25px;
         text-transform: none;
         padding-top: 10px;
     }
@@ -3213,15 +3225,15 @@ input#mod-search-searchword {
     .btn {
         border-radius: 0;
         border: 0;
-            letter-spacing: 1px;
+        letter-spacing: 1px;
         padding: 10px 0px;
         text-transform: none;
-        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Bliss", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 12px;
         font-weight: 100;
         -webkit-transition: all .3s ease-in-out;
-           -moz-transition: all .3s ease-in-out;
-                transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     .btn-default {
@@ -3311,9 +3323,11 @@ span.bold {
 
         p {
             margin: 0 0 0px;
-            font-size: 20px;
-            line-height: 1.6;
-            color: #383838;
+            line-height: 1.4rem;
+            font-family: "Bliss";
+            color: #404040;
+            font-weight: 300;
+            font-size: 1rem;
         }
 
         .navbar-custom {
@@ -3486,7 +3500,7 @@ p.tittle.center-text {
 
     span.white_color.bold {
         color: white;
-        font-weight: 900;
+        font-weight: 600;
     }
     @media screen and (min-width: 768px){
         .carousel-caption {
@@ -4074,7 +4088,7 @@ height: inherit;
 
         .btn-lg{
            margin: 0px 0;
-           width: inherit;
+           width: initial;
            text-align: left;
     }
 
@@ -4105,11 +4119,10 @@ p.hidden_all {
     bottom: -4px;
 }
 
-.text_reader {
-}
+.text_reader {margin: 0 0 0px;line-height: 1.4rem;font-family: "Bliss";color: #404040;font-weight: 300;font-size: 1rem;}
 
 span.phone-light {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .top-nav-collapse .calc {
@@ -4136,4 +4149,53 @@ span.phone-light {
 .page_off .phone_main {
     transition: opacity 0.4s ease;
     opacity: 1;
+}
+
+a.btn.btn-default.btn-lg.modal_btn {
+    font-size: 1.6rem;
+    font-weight: 100;
+    border-bottom: 1px dashed white;
+    padding: 0;
+    width: initial;
+}
+
+span.phone-light.w {
+    color: white;
+}
+
+h2.left-text {
+    font-size: 2.8rem;
+    color: #ff597c;
+    font-weight: 700;
+    font-family: "Iskra";
+    letter-spacing: 0;
+    margin-bottom: 6px;
+}
+
+.col-md-6.col-sm-12.video_fil {
+    margin-bottom: 26px;
+}
+
+.over_black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(11, 10, 10, 0.5);
+}
+
+section.how-start {
+    overflow: hidden;
+    position: relative;
+}
+.img_left_full {
+	background: url(/img/2.jpg);
+	background-size: cover;
+	width: 37%;
+	/* display: flex; */
+	height: 517px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
