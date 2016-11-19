@@ -1,4 +1,4 @@
-    /*
+items_ser    /*
     Template: Hallooou HTML5 Responsive template
     Author: Mauritius D'Silva <hello@mauritiusdsilva.com>
     Theme URI: http://www.mauritiusdsilva.com/themes/hallooou
@@ -4251,4 +4251,65 @@ section.personal h2::before {content: '';display: inline-block;width: 110px;heig
 #services  h2.left-text {
     position: relative;
     right: 124px;
+}
+.item-1 {
+	background: url(/img/nanny1.jpg);
+}
+
+
+.item-2 {
+    background: url(/img/nanny2.jpg);
+}
+
+.item-3 {
+    background: url(/img/nanny3.jpg);
+}
+
+.items_ser {
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: flex-end;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    padding: 0;
+}
+
+.tittle_item {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.hov_info {
+    width: 100%;
+    text-align: center;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.items_ser:hover .hov_info {
+    background: rgba(255, 89, 124, 0.76);
+    height: 100%;
+    opacity: 1;
+    transition: all 0.4s ease-out;
+    cursor: auto;
+}
+
+.hov_info a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 14px 80px;
+    border: 2px solid white;
+    margin-top: 32px;
 }
