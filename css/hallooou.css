@@ -135,11 +135,11 @@
     display: flex;
     align-items: center;
     position: relative;
-    bottom: -21px;
+    bottom: -27px;
+    height: 0px;
 }
 
 .block-12 {
-    margin-top: -51px;
 }
 
 .how-start .row.text-center {
@@ -1265,9 +1265,9 @@ div#modal.show_modal{
     }
 
     #parallax-slide{
-        background: url(/img/1.jpg) 50% 0 no-repeat;
+        background: url(/img/cover.jpg) 50% 0 no-repeat;
         background-size: cover;
-             -o-background-size: cover;
+        -o-background-size: cover;
     }
 
     .overlay-detail {
@@ -4061,4 +4061,26 @@ height: inherit;
 .button_block-1 {
     width: 100%;
     background: red;
+}
+
+p.hidden_all {
+    visibility: hidden;
+}
+
+.right-text.resume p {
+    color: white;
+    padding: 68px 20px 20px 20px;
+    cursor: pointer;
+    text-align: center;
+    /* position: relative; */
+    /* bottom: 4px; */
+}
+
+.right-text.resume {
+    background: #f44336;
+    position: relative;
+    bottom: -4px;
+}
+
+.text_reader {
 }
