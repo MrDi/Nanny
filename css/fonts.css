@@ -1,0 +1,112 @@
+/* font-family: "RalewayRegular"; */
+@font-face {
+    font-family: "Bliss";
+    src: url("../fonts/BlissProRegular.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* font-family: "RalewayExtraLight"; */
+@font-face {
+    font-family: "Bliss";
+    src: url("../fonts/BlissProExtraLight.otf");
+    font-style: normal;
+    font-weight: 200;
+}
+/* font-family: "RalewayLight"; */
+@font-face {
+    font-family: "Bliss";
+    src: url("../fonts/BlissProLight.otf");
+    font-style: normal;
+    font-weight: 300;
+}
+/* font-family: "RalewayMedium"; */
+@font-face {
+    font-family: "Bliss";
+    src: url("../fonts/BlissProMedium.otf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* font-family: "RalewayBold"; */
+@font-face {
+    font-family: "Bliss";
+    src: url("../fonts/BlissProBold.otf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* font-family: "RalewayExtraBold"; */
+@font-face {
+    font-family: "Bliss";
+    src: url("../fonts/BlissProExtraBold.otf");
+    font-style: normal;
+    font-weight: 800;
+}
+/* font-family: "RalewayBlack"; */
+@font-face {
+    font-family: "Bliss";
+    src: url("../fonts/BlissPro-Heavy.otf");
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+/* font-family: "UltraThin"; */
+@font-face {
+    font-family: "Iskra";
+    src: url("../fonts/IskraCYR-UltraThin.otf");
+    font-style: normal;
+    font-weight: 100;
+}
+/* font-family: "Thin"; */
+@font-face {
+    font-family: "Iskra";
+    src: url("../fonts/IskraCYR-Thin.otf");
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* font-family: "Light"; */
+@font-face {
+    font-family: "Iskra";
+    src: url("../fonts/IskraCYR-Light.otf");
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+/* font-family: "Regular"; */
+@font-face {
+    font-family: "Iskra";
+    src: url("../fonts/IskraCYR-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* font-family: "Medium"; */
+@font-face {
+    font-family: "Iskra";
+    src: url("../fonts/IskraCYR-Medium.otf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+/* font-family: "Bold"; */
+@font-face {
+    font-family: "Iskra";
+    src: url("../fonts/IskraCYR-Bold.otf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* font-family: "UltraBold"; */
+@font-face {
+    font-family: "Iskra";
+    src: url("../fonts/IskraCYR-UltraBold.otf");
+    font-style: normal;
+    font-weight: 700;
+}
+

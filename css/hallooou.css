@@ -111,6 +111,8 @@
     }
 .block-1 .text {
     width: 505px;
+    font-weight: 200;
+    font-family: "Bliss";
 }
 .icon-v {
     width: 40px;
@@ -217,11 +219,8 @@
     }
 
     body {
-        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: 300;
-        color: #383838; /* Can be changed via colors.css */
-        background-color: #eeeeee;
-        
+        font-family: 'Bliss';
+        font-weight: 200;
     }
 body.ov_hid{
     overflow: hidden;
@@ -2824,9 +2823,10 @@ section.how-start img {
     }
 .title {
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 400;
     color: #f44336;
     margin-bottom: 5px;
+    font-family: "Bliss";
 }
     .counter-section strong {
         display: block;
