@@ -243,6 +243,7 @@
     body {
         font-family: 'Bliss';
         font-weight: 200;
+        overflow-x: hidden;
     }
 body.ov_hid{
     overflow: hidden;
@@ -3322,7 +3323,6 @@ span.bold {
 
 
         p {
-            margin: 0 0 0px;
             line-height: 1.4rem;
             font-family: "Bliss";
             color: #404040;
@@ -4106,17 +4106,21 @@ p.hidden_all {
 
 .right-text.resume p {
     color: white;
-    padding: 68px 20px 20px 20px;
+    padding: 36px 20px 36px 20px;
     cursor: pointer;
     text-align: center;
     /* position: relative; */
     /* bottom: 4px; */
+    font-family: "Iskra";
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 .right-text.resume {
-    background: #f44336;
+    background: #ff597c;
     position: relative;
-    bottom: -4px;
+    bottom: -29px;
+    border-radius: 7px;
 }
 
 .text_reader {margin: 0 0 0px;line-height: 1.4rem;font-family: "Bliss";color: #404040;font-weight: 300;font-size: 1rem;}
@@ -4188,14 +4192,63 @@ h2.left-text {
 section.how-start {
     overflow: hidden;
     position: relative;
+    padding: 37px 0 5px 0;
 }
 .img_left_full {
 	background: url(/img/2.jpg);
 	background-size: cover;
 	width: 37%;
-	/* display: flex; */
-	height: 517px;
+	height: 592px;
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+
+
+.right-text.resume p::before {content: '';display: block;width: 68px;height: 57px;background: white;margin: 0 auto;position: relative;top: -10px;background: url(/img/message_w.svg);background-size: contain;background-repeat: no-repeat;background-position: 50%;}
+
+section.personal {
+    padding: 61px 0 39px 0;
+}
+
+section.personal h2 {
+    margin: 20px 0;
+    position: relative;
+    right: 134px;
+    margin-left: 0px;
+}
+
+section.personal h2::before {content: '';display: inline-block;width: 110px;height: 77px;background: url(/img/header_icon3.png) no-repeat;vertical-align: middle;background-size: contain;margin-right: 12px;}
+
+.how-start h2.left-text::before {
+    content: '';
+    display: inline-block;
+    width: 110px;
+    height: 77px;
+    background: url(/img/header_icon2.png) no-repeat;
+    vertical-align: text-top;
+    background-size: contain;
+    margin-right: 12px;
+}
+
+.how-start h2.left-text {
+    position: relative;
+    right: 134px;
+    margin-right: -134px;
+}
+
+#services h2.left-text::before {
+    content: '';
+    display: inline-block;
+    width: 110px;
+    height: 77px;
+    background: url(/img/header_icon1.png) no-repeat;
+    vertical-align: text-top;
+    background-size: contain;
+    margin-right: 12px;
+}
+
+#services  h2.left-text {
+    position: relative;
+    right: 124px;
 }
